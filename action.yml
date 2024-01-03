@@ -3,6 +3,7 @@ description: 'A simple composite action for testing'
 
 runs:
   using: 'composite'
+  shell: bash
   steps:
     - name: Step 1
       run: |
