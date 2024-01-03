@@ -1,0 +1,16 @@
+name: 'Simple Composite Action'
+description: 'A simple composite action for testing'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Step 1
+      run: echo "Running Step 1"
+
+    - name: Step 2
+      run: echo "Running Step 2"
+
+inputs:
+  example_input:
+    description: 'An example input for the composite action'
+    required: true
